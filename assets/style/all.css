@@ -208,6 +208,8 @@ header .header-right {
     header .header-right .collection .arrow {
       line-height: 120px;
       text-align: center; }
+    header .header-right .collection .arrow-color {
+      color: #121212; }
     header .header-right .collection .border-r {
       border-right: 1px solid #121212; }
 
