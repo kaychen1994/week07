@@ -1,0 +1,206 @@
+// header
+header{
+    .header-left{
+        margin-left: 255px;
+        margin-right: 7px;
+        h2{
+            width: 690px;
+            font-size: 6rem;
+            font-family: 'Merriweather', serif;
+            line-height: 1.3;
+            color: $primary;
+        }
+        p{
+            width: 570px;
+            font-size: 1.5rem;
+            color: $gray-dark;
+        }
+        a{
+            width: 211px;
+            height: 61px;
+            line-height: 61px;
+            text-align: center;
+            background-color: $gray-light;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $primary;
+            border: 1px solid $secondary;
+        }
+    }
+    .header-right{
+        width: 50%;
+        img{
+            height: 864px;
+        }
+        .collection{
+            height: 120px;
+            border: 1px solid $secondary;
+            h3{
+                font-size: 3rem; 
+                line-height: 120px;
+                font-family: 'Merriweather', serif;
+            }
+            a{
+                width: 121px;
+            }
+            .arrow{
+                line-height: 120px;
+                text-align: center;
+            }
+            .border-r{
+                border-right: 1px solid $secondary;
+            }
+        }    
+    }
+}
+// gear
+.gear{
+    .gear-bg{
+        background-image: url(../images/josh-nuttall-uNQ-TTg_qNY-unsplash.jpg);
+        width: 960px;
+        height: 960px;
+        position: relative;
+        .gear-read{
+            background-color: $gray-light;
+            color: $primary;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: 'Lato', serif;
+            padding: 1rem;
+            position: absolute;
+            right: 0;
+            top: 450px;
+        }
+    }
+    .gear-content{
+        background-color: $gray-light;
+        width: 960px;
+        height: 960px;
+        padding-top: 96px;
+        padding-bottom: 192px;
+        position: relative;
+        p{
+            width: 570px;
+            margin-left: 135px;
+        }
+        h3{
+            margin-right: 96px;
+        }
+        .arrow-forward-black{
+            position: absolute;
+            background-color: $secondary;
+            padding: 23px 22px 22px 23px;
+            color: white;
+            left: 0;
+            top: 450px;
+        }
+    }
+}
+// performance
+.performance{
+    margin-bottom: 96px;
+    .performance-content{
+        background-color: $gray-light;
+        width: 960px;
+        height: 960px;
+        padding-bottom: 96px;
+        padding-top: 192px;
+        position: relative;
+        h3{
+            margin-left: 96px;
+        }
+        p{
+            width: 570px;
+            margin-left: 255px;
+        }
+        .performance-read{
+            background-color: $primary;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: 'Lato', serif;
+            padding: 1rem;
+            position: absolute;
+            right: 0;
+            top: 450px;
+        }
+    }
+    .performance-bg{
+        background-image: url(../images/josh-nuttall-76DfCHM-4u0-unsplash.jpg);
+        width: 960px;
+        height: 960px;
+        position: relative;
+        .arrow-forward-gray{
+            position: absolute;
+            background-color: $gray-light;
+            padding: 23px 22px 22px 23px;
+            color: $secondary;
+            left: 0;
+            top: 450px;
+        }
+    }
+}
+
+// commuters
+.commuters{
+    margin-bottom: 6rem;
+    h4{
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        margin-bottom: 1.5rem;
+    }
+    p{
+        width: 570px;
+    }
+}
+
+// Premium Rush
+.premium-rush{
+    background-image: url(../images/josh-nuttall-RqFUxO6MKjw-unsplash.jpg);
+    height: 640px;
+    background-position: center 24%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6rem;
+    .premium-rush-content{
+        background-color: #fff;
+        width: 450px;
+        height: 139px;
+        margin-left: 255px;
+        margin-bottom: 77px;
+        padding: 16px;
+        h6{
+            font-size: 1.5rem;
+            font-family: 'Merriweather', serif;
+            color: $primary;
+        }
+        p{
+            font-size: 1rem;
+            color: $gray-dark;
+        }
+    }
+}
+// gallery
+.gallery{
+    margin-bottom: 6rem;
+    li{
+        width: 450px;
+        img{
+            width: 100%;
+            height: 600px;
+            margin-bottom: 1.5rem;
+        }
+        h6{
+            font-size: 1.5rem;
+            font-family: 'Merriweather', serif;
+            margin-bottom: 1rem;
+            color: $primary;
+        }
+        p{
+            font-size: 1rem;
+            color: $gray-dark;
+        }
+    }
+    
+}

@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5; }
+
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.justify-end {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start; }
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.align-items-flex-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.ml-48 {
+  margin-left: 3rem; }
+
+.mr-48 {
+  margin-right: 48px; }
+
+.mb-16 {
+  margin-bottom: 1rem; }
+
+.mb-48 {
+  margin-bottom: 3rem; }
+
+.f-italic {
+  font-style: italic; }
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.content-title {
+  font-size: 72px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Merriweather', serif; }
+
+.content-text {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Lato', serif; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-center {
+  text-align: center; }
+
+nav {
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid #121212; }
+  nav ul a {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: bold; }
+
+footer .container {
+  padding: 1.5rem 3rem;
+  background-color: #f1f5f6; }
+
+footer ul a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  font-weight: bold; }
+
+footer p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.67; }
+
+header .header-left {
+  margin-left: 255px;
+  margin-right: 7px; }
+  header .header-left h2 {
+    width: 690px;
+    font-size: 6rem;
+    font-family: 'Merriweather', serif;
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.87); }
+  header .header-left p {
+    width: 570px;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.6); }
+  header .header-left a {
+    width: 211px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    background-color: #f1f5f6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid #121212; }
+
+header .header-right {
+  width: 50%; }
+  header .header-right img {
+    height: 864px; }
+  header .header-right .collection {
+    height: 120px;
+    border: 1px solid #121212; }
+    header .header-right .collection h3 {
+      font-size: 3rem;
+      line-height: 120px;
+      font-family: 'Merriweather', serif; }
+    header .header-right .collection a {
+      width: 121px; }
+    header .header-right .collection .arrow {
+      line-height: 120px;
+      text-align: center; }
+    header .header-right .collection .border-r {
+      border-right: 1px solid #121212; }
+
+.gear .gear-bg {
+  background-image: url(../images/josh-nuttall-uNQ-TTg_qNY-unsplash.jpg);
+  width: 960px;
+  height: 960px;
+  position: relative; }
+  .gear .gear-bg .gear-read {
+    background-color: #f1f5f6;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lato', serif;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 450px; }
+
+.gear .gear-content {
+  background-color: #f1f5f6;
+  width: 960px;
+  height: 960px;
+  padding-top: 96px;
+  padding-bottom: 192px;
+  position: relative; }
+  .gear .gear-content p {
+    width: 570px;
+    margin-left: 135px; }
+  .gear .gear-content h3 {
+    margin-right: 96px; }
+  .gear .gear-content .arrow-forward-black {
+    position: absolute;
+    background-color: #121212;
+    padding: 23px 22px 22px 23px;
+    color: white;
+    left: 0;
+    top: 450px; }
+
+.performance {
+  margin-bottom: 96px; }
+  .performance .performance-content {
+    background-color: #f1f5f6;
+    width: 960px;
+    height: 960px;
+    padding-bottom: 96px;
+    padding-top: 192px;
+    position: relative; }
+    .performance .performance-content h3 {
+      margin-left: 96px; }
+    .performance .performance-content p {
+      width: 570px;
+      margin-left: 255px; }
+    .performance .performance-content .performance-read {
+      background-color: rgba(0, 0, 0, 0.87);
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-family: 'Lato', serif;
+      padding: 1rem;
+      position: absolute;
+      right: 0;
+      top: 450px; }
+  .performance .performance-bg {
+    background-image: url(../images/josh-nuttall-76DfCHM-4u0-unsplash.jpg);
+    width: 960px;
+    height: 960px;
+    position: relative; }
+    .performance .performance-bg .arrow-forward-gray {
+      position: absolute;
+      background-color: #f1f5f6;
+      padding: 23px 22px 22px 23px;
+      color: #121212;
+      left: 0;
+      top: 450px; }
+
+.commuters {
+  margin-bottom: 6rem; }
+  .commuters h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1.5rem; }
+  .commuters p {
+    width: 570px; }
+
+.premium-rush {
+  background-image: url(../images/josh-nuttall-RqFUxO6MKjw-unsplash.jpg);
+  height: 640px;
+  background-position: center 24%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 6rem; }
+  .premium-rush .premium-rush-content {
+    background-color: #fff;
+    width: 450px;
+    height: 139px;
+    margin-left: 255px;
+    margin-bottom: 77px;
+    padding: 16px; }
+    .premium-rush .premium-rush-content h6 {
+      font-size: 1.5rem;
+      font-family: 'Merriweather', serif;
+      color: rgba(0, 0, 0, 0.87); }
+    .premium-rush .premium-rush-content p {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.6); }
+
+.gallery {
+  margin-bottom: 6rem; }
+  .gallery li {
+    width: 450px; }
+    .gallery li img {
+      width: 100%;
+      height: 600px;
+      margin-bottom: 1.5rem; }
+    .gallery li h6 {
+      font-size: 1.5rem;
+      font-family: 'Merriweather', serif;
+      margin-bottom: 1rem;
+      color: rgba(0, 0, 0, 0.87); }
+    .gallery li p {
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.6); }
+
+/*# sourceMappingURL=all.css.map */

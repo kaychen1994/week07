@@ -1,0 +1,32 @@
+nav{
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid $secondary;
+    ul{
+        a{
+            color: $primary;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+footer{
+    .container{
+        padding: 1.5rem 3rem;
+        background-color: $gray-light;
+    }
+
+    ul{
+        a{
+            color: $primary;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+    p{
+        font-size: 14px;
+        color: $gray-dark;
+        opacity: 0.67;
+    }
+
+}
