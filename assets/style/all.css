@@ -295,7 +295,8 @@ header .header-right {
   background-position: center 24%;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  background-attachment: fixed; }
   .premium-rush .premium-rush-content {
     background-color: #fff;
     width: 450px;
